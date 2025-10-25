@@ -1,1 +1,27 @@
-/target
+# Mac
+.DS_Store
+
+# Maven
+/target/
+dependency-reduced-pom.xml
+target
+
+# Eclipse
+.metadata
+.checkstyle
+.classpath
+.pmd
+.project
+.ruleset
+.settings
+bin
+
+derby.log
+
+# IntelliJ IDEA
+*.idea
+*.iml
+
+# other
+.vscode
+**/.flattened-pom.xml
