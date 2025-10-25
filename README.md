@@ -43,7 +43,7 @@ guone/
 ### 1. 克隆项目
 
 ```bash
-git clone <项目地址>
+git clone git@github.com:guchenbo/guone.git
 cd guone
 ```
 
@@ -52,11 +52,7 @@ cd guone
 * 修改 `application.yml` 或 `application.properties` 中的数据库配置：
 
 ```yaml
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/cms_db
-    username: root
-    password: password
+
 ```
 
 * 初始化数据库，可使用 `schema.sql` 或项目自带的 Flyway / Liquibase 脚本
